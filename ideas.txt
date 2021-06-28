@@ -1,0 +1,6 @@
+1. Slider to decide cell size or three button options to choose grid size
+2. Diagonal gradient background color that keeps changing from warm to cool
+3. Breathing grid, if possible give shadow breathing effect
+4. Transparent option to see the background color in the grid, also the rainbow option
+5. Only Hovering will color the grid
+6. Button-colors constantly changing to show their color - scheme
