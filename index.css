@@ -1,8 +1,9 @@
-.Title
+h1
 {
   color: white;
   font-size: 40px;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 
 body
@@ -68,14 +69,98 @@ body
   flex-direction: column;
 }
 
+.buttonBox
+{
+  display: flex;
+  width: 512px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-bottom: 20px;
+}
+
+.left
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.middle
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.right
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+button {
+  background-color: transparent;
+  color: #FFF;
+  outline: 0 !important;
+  text-shadow: 0 0 7px #fff;
+  border: 2px solid #fff;
+  padding: 12px;
+  text-align: center;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+.transparency
+{
+  border-radius: 10px;
+}
+
+.opaque
+{
+  border-radius: 10px;
+}
+
+.rainbow
+{
+  border-radius: 10px;
+}
+
+.Erase
+{
+  border-radius: 10px;
+}
+
+.sixteen
+{
+  border-radius: 50%;
+}
+
+.thirtytwo
+{
+  border-radius: 50%;
+}
+
+.sixtyfour
+{
+  border-radius: 50%;
+}
+
+
 .cells
 {
   background-color: white;
+  /* border: 2px white solid; */
   animation: breathe 7.5s ease infinite;
-  height:  27.5px;
-  width:  27.5px;
+  height:  32px;
+  width:  32px;
 }
-
+/*
 @keyframes breathe
 {
   0%
@@ -91,9 +176,11 @@ body
     border-width: 1px;
   }
 }
+*/
 /* have to find a way to convert the below code into js function*/
+/*
 .cells:hover {
   background-color: transparent;
   border: 2px solid black;
 }
-
+*/

@@ -22,7 +22,7 @@ for(i = 0; i < n; i++)
 
 function colorChange()
 {
-	this.style.backgroundColor = 'transparent';
+	this.style.backgroundColor = 'transparent'; //color will be chosen by button
 }
 
 let nodeList = container.childNodes;
