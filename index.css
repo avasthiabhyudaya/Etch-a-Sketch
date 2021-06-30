@@ -70,7 +70,6 @@ body
 
 .cells
 {
-  border: 2px solid white;
   background-color: white;
   animation: breathe 7.5s ease infinite;
   height:  27.5px;
@@ -92,7 +91,7 @@ body
     border-width: 1px;
   }
 }
-
+/* have to find a way to convert the below code into js function*/
 .cells:hover {
   background-color: transparent;
   border: 2px solid black;
