@@ -107,11 +107,23 @@ button {
   color: #FFF;
   outline: 0 !important;
   text-shadow: 0 0 7px #fff;
-  border: 2px solid #fff;
+  border: none;
   padding: 12px;
   text-align: center;
   font-size: 100%;
   cursor: pointer;
+}
+
+button:hover
+{
+    border: none;
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff inset;
+
+}
+
+.buttonShadow
+{    
+    box-shadow: 0 0 10px #fff, 0 0 10px #fff inset;
 }
 
 .transparency
@@ -160,10 +172,11 @@ button {
 {
   background-color: white;
   /* border: 2px white solid; */
-  animation: breathe 7.5s ease infinite;
   height:  32px;
   width:  32px;
 }
+
+
 /*
 @keyframes breathe
 {
