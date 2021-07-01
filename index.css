@@ -83,8 +83,6 @@ body
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: stretch;
 }
 
 .middle
@@ -138,16 +136,22 @@ button {
 
 .sixteen
 {
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
 
 .thirtytwo
 {
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
 
 .sixtyfour
 {
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
 

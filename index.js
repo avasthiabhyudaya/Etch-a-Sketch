@@ -4,6 +4,9 @@
 //n will al
 
 container = document.querySelector('.container');
+
+
+
 let n = 16 //we will vary the value of n using buttons later using .addEventListener('click')
 
 for(i = 0; i < n; i++)
