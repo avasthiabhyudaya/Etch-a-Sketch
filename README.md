@@ -1,8 +1,7 @@
-# The Odin Project Web Development 101
 ## Project: Etch-a-Sketch
-  This is a browser version of toy similar to Etch A Sketch from The Odin Project [curriculum](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project).
+  This is a browser version of toy similar to Etch A Sketch or sketchpad
 
-🔗 **Live preview** of my web toy is [here](https://mooniidev.github.io/etch-a-sketch-toy/).
+🔗 **Live preview** of my web toy is [here](https://avasthiabhyudaya.github.io/Etch-a-Sketch/).
 
 ### Outcome of this project: ###
 * Deepened knowledge of **DOM** and its **manipulation**.
