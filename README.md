@@ -12,4 +12,4 @@
 
 ### My web toy in action: ###
 
-![Toy in action](./images/Screenshot 2021-07-02 at 9.40.54 AM.png)
+![Toy in action](./images/paint.png)
